@@ -1,5 +1,8 @@
 # goit-js-hw-03
-Задача 1. Генератор slug
+
+Задача 1.
+
+Генератор slug
 Перш, ніж розв’язувати задачу, давай визначимося із новим терміном!
 
 Термін slug — це зрозумілий людині унікальний ідентифікатор, який використовується у веб розробці для створення читабельних URL-адрес.
@@ -22,7 +25,6 @@ console.log(slugify("English for developer")); // "english-for-developer"
 console.log(slugify("Ten secrets of JavaScript")); // "ten-secrets-of-javascript"
 console.log(slugify("How to become a JUNIOR developer in TWO WEEKS")); // "how-to-become-a-junior-developer-in-two-weeks"
 
-
 Залиш цей код для перевірки ментором.
 
 На що буде звертати увагу ментор при перевірці:
@@ -31,7 +33,10 @@ console.log(slugify("How to become a JUNIOR developer in TWO WEEKS")); // "how-t
 Виклик slugify("English for developer") повертає "english-for-developer"
 Виклик slugify("Ten secrets of JavaScript") повертає "ten-secrets-of-javascript"
 Виклик slugify("How to become a JUNIOR developer in TWO WEEKS") повертає "how-to-become-a-junior-developer-in-two-weeks"
-Задача 2. Композиція масивів
+
+Задача 2.
+
+Композиція масивів
 Напиши функцію під назвою makeArray, яка приймає три параметри: firstArray (масив), secondArray (масив) і maxLength (число). Функція повинна створювати новий масив, який містить усі елементи з firstArray, а потім усі елементи з secondArray.
 
 Якщо кількість елементів у новому масиві перевищує maxLength, функція повинна повернути копію масиву з довжиною maxLength елементів.
@@ -45,7 +50,6 @@ console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2)); // ["Ear
 console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4)); // ["Earth", "Jupiter", "Neptune", "Uranus"]
 console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0)); // []
 
-
 Залиш цей код для перевірки ментором.
 
 На що буде звертати увагу ментор при перевірці:
@@ -57,7 +61,10 @@ console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0));
 Виклик makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4) повертає ["Earth", "Jupiter", "Neptune", "Uranus"]
 Виклик makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0) повертає []
 Виклик функції makeArray() з випадковими масивами і випадковим числом повертає правильний масив
-Задача 3. Фільтрація масиву чисел
+
+Задача 3.
+
+Фільтрація масиву чисел
 Напиши функцію filterArray(numbers, value), яка приймає масив чисел (numbers) та значення (value) як параметри. Функція повинна повертати новий масив лише тих чисел із масиву numbers, які більші за значення value.
 
 Усередині функції:
